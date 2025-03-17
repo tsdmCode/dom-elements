@@ -8,6 +8,8 @@ Du skal finde elementet med id="yellowFigure" og console logge det.
 // din kode her
 const red = document.getElementById('redFigure');
 const yellow = document.getElementById('yellowFigure');
+console.log(red);
+console.log(yellow);
 
 /* opgave 1.2
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
