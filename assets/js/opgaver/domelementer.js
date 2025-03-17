@@ -80,9 +80,9 @@ const navn = document.createElement('h2');
 const image = document.createElement('img');
 const info = document.createElement('p');
 
-navn.innerText = myData.name;
+navn.innerHTML = myData.name;
 image.src = myData.image;
-info.innerText = myData.description;
+info.innerHTML = myData.description;
 
 data.appendChild(section);
 section.appendChild(navn);
